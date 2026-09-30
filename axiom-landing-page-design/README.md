@@ -16,7 +16,7 @@ The stunning, modern web application built with React 19, Tailwind CSS v4, and S
   npm install
   npm run dev
   ```
-  *(Runs on http://localhost:3000)*
+ 
 
 ### 2. `/backend` (Node.js + Express)
 The core REST API and Database service. It uses **Prisma ORM** with a local SQLite database (`dev.db`).

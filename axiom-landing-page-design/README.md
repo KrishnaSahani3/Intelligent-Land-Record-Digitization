@@ -29,7 +29,7 @@ The core REST API and Database service. It uses **Prisma ORM** with a local SQLi
   npx prisma db push
   npm run start
   ```
-  *(Or `npx ts-node server.ts` / `npx nodemon server.ts`. Runs on http://localhost:5000)*
+ 
 
 ### 3. `/ml` (Python FastAPI)
 The Microservice dedicated to AI and OCR workloads.
@@ -41,7 +41,7 @@ The Microservice dedicated to AI and OCR workloads.
   pip install -r requirements.txt
   uvicorn main:app --host 0.0.0.0 --port 8000
   ```
-  *(Runs on http://localhost:8000)*
+ 
 
 ## Key Features Implemented
 
